@@ -1,0 +1,65 @@
+.add{
+  background-image: url('IMG_20221026_162809_092.jpg');
+  background-size: contain;
+    display: block;
+    margin: 50px auto;
+    border: 4px solid rgb(146, 0, 0);
+    border-radius: 50px;
+    width: 50%;
+height: 900px;
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.n{
+    
+    font-size: 80px;
+   display: block;
+   color: black;
+}
+input{
+  border-radius: 30px;
+    display:inline;
+    width: 80%;
+  margin-top: 10px;
+      margin-left: 20px;
+      padding: 10px;
+      font-size: 20px;
+}
+
+body{
+  background-color: rgb(224, 204, 174);
+    display: block;
+    
+}
+
+#un{
+display: none;
+}
+
+#sc {
+  display: none;
+}
+#school{
+  display: none;
+}
+
+a{
+  font-size: 30px;
+}
+button{
+  width: 15%;
+  border-radius: 50px;
+  font-size: 20px;
+}
+select{
+  width: 15%;
+  border-radius: 50px;
+  font-size: 20px;
+}
+label{
+  font-size: 25px;
+  color: #ffffff;
+}

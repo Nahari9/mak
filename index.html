@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Prosinal Data</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+    </head>
+    <body>
+<form>
+  <h1>ادخل بياناتك</h1>
+        <div class="add">
+               
+            <a class="n" href="#"><i class="fa fa-user" style="color: rgb(224, 204, 174);"></i></a>
+   <div class="name">
+   <input type="text" placeholder="الإسم ">
+   <input type="number" placeholder="العمر">
+
+   <hr>
+
+   <label>النوع:</label>
+	<select size="1">
+    <Option>ذكر</Option>
+    <Option>أنثى</Option>
+    </select>
+   <hr>
+   <button type="button" onclick="document.getElementById('mird').style.display='block'">متزوج</button>
+   
+   
+   <button type="button" onclick="document.getElementById('mird').style.display='none'">عازب</button>
+      <p id="mird" style="display: none;">
+        
+        <input type="text" placeholder="اسم الزوجة">
+          <input type="number" placeholder="عدد الأولاد">
+      </p>
+<hr>
+   <button type="button" onclick="document.getElementById('school').style.display='block'" style="width: 20%;">المستوى التعليمي</button>
+   
+
+   <button type="button" onclick="document.getElementById('school').style.display='none'"
+   >غير متعلم</button>
+   
+
+
+
+
+
+   <div id="school">
+   <p id="leveun">
+    <button type="button" onclick="document.getElementById('un').style.display='block';document.getElementById('sc').style.display='none'">الجامعي</button>
+    
+    <button type="button" onclick="document.getElementById('sc').style.display='block';document.getElementById('un').style.display='none'">الثانوي</button>
+</p>
+     <p id="un">
+         	<select size="1">
+         	 <Option>إختر جامعة</Option>
+    <Option>ذمار</Option>
+    <Option>صنعاء</Option>
+    <Option>حجة</Option>
+    <Option>مارب</Option>
+    <Option>الحديدة</Option>
+    <Option>أب </Option>
+    <Option>عدن</Option>
+    <Option>عمران</Option>
+    <Option>الجوف</Option>
+</select><br>
+       <input type="number" placeholder="الرقم الجامعي" >
+       <input type="text" placeholder="القسم">
+       <input type="number" placeholder="المستوى">
+       
+     </p>
+
+     <p id="sc">
+       <input type="text" placeholder="المدرسة">
+       <br>
+       
+       <input type="text" placeholder="المرحلة الدراسية">
+   <input type="text" placeholder="الصف">
+      
+     </p>
+   </div>
+<hr>
+<input type="reset">
+<input type="submit">
+</div>
+</form>
+    </body>
+</html>
